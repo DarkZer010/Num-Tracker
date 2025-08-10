@@ -18,3 +18,5 @@ pip install time
 pip install colorama
 
 pip install pyfiglet
+
+python3 num-tracker py
