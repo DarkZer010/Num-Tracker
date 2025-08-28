@@ -5,18 +5,11 @@ Ferramenta que descobre o país e estado da pessoa pelo DDD.
 
 pkg install git
 
+pkg install python3
+
 git clone https://github.com/101Ruan/Num-Tracker
 
 cd num-tracker
 
-pkg install python3
-
-pip install phonenumbers
-
-pip install time
-
-pip install colorama
-
-pip install pyfiglet
-
+pip install -r requirements.txt
 python3 num-tracker py
