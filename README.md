@@ -12,4 +12,5 @@ git clone https://github.com/101Ruan/Num-Tracker
 cd num-tracker
 
 pip install -r requirements.txt
+
 python3 num-tracker py
