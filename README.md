@@ -7,7 +7,7 @@ pkg install git
 
 pkg install python3
 
-git clone https://github.com/101Ruan/Num-Tracker
+git clone https://github.com/DarkZer010/Num-Tracker
 
 cd num-tracker
 
