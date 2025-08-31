@@ -29,14 +29,14 @@ def Tracker():
     estado = geocoder.description_for_number(num, "pt")
     pais = phonenumbers.region_code_for_number(num)
     
-    codigo_postal = num.country_code
+    DDD = num.country_code
     validacao_num = phonenumbers.is_valid_number(num)
     
     validacao_CodigoPostal = phonenumbers.is_possible_number(num)
     formatacao = phonenumbers.format_number(num, phonenumbers.PhoneNumberFormat.INTERNATIONAL)
     operadora = carrier.name_for_number(num, "pt")
     
-    print(Fore.BLUE+"\nEstado/Região:", estado, "País:", pais, f"\nOperadora: {operadora}", "\nCodigo postal:", codigo_postal, "\nNumero valido: ", validacao_num, "\nCodigo postal valido:", validacao_CodigoPostal, "\nFormato:", formatacao)
+    print(Fore.BLUE+"\nEstado/Região:", estado, "País:", pais, f"\nOperadora: {operadora}", "\nCodigo Do Pais:", DDD, "\nNumero valido: ", validacao_num, "\nCodigo postal valido:", validacao_CodigoPostal, "\nFormato:", formatacao)
 
 if __name__ == "__main__":
     limpar_tela()
